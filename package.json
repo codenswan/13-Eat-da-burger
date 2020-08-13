@@ -1,0 +1,31 @@
+{
+  "name": "13-eat-da-burger",
+  "version": "1.0.0",
+  "description": "This application keeps track of burgers created and consumed using mysql2, express, handlebars and ORM.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenswan/13-Eat-da-burger.git"
+  },
+  "keywords": [
+    "node",
+    "mysql2",
+    "express",
+    "handlebars",
+    "ORM"
+  ],
+  "author": "Dan Swan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codenswan/13-Eat-da-burger/issues"
+  },
+  "homepage": "https://github.com/codenswan/13-Eat-da-burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql2": "^2.1.0"
+  }
+}
