@@ -1,0 +1,14 @@
+.column {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.create-burger {
+    padding-top: 3rem;
+}
+
+.field.is-grouped {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}

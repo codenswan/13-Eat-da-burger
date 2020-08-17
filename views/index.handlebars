@@ -1,0 +1,82 @@
+<body>
+
+    <section class="has-text-centered">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <h1 class="title">
+                    Personal Burger Diary.
+                </h1>
+                <h2 class="subtitle">
+                    Keep track of your fondest burger moments!
+                </h2>
+               
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="columns is-mobile is-centered">
+            <div class="column is-quarter has-text-centered">
+                <h1 class="title">Burgers I'm gunna eat!</h1>
+                <ul>
+                    {{#each burgers}}
+                    {{#unless devoured}}
+                    {{> burger-block devoured=true}}
+                    {{/unless}}
+                    {{/each}}
+                </ul>
+            </div>
+            <img src="assets/img/images-removebg-preview.png" alt="">
+            <div class="column is-quarter has-text-centered">
+                <h1 class="title" >Burgers I have devoured!</h1>
+
+                <ul>
+
+                    {{#each burgers}}
+                    {{#if devoured}}
+                    <li>
+                        {{burger_name}}
+
+                        <button class=" delete-burger " data-id="{{this.id}}">Delete</button>
+                    </li>
+
+                    {{/if}}
+                    {{/each}}
+                </ul>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+
+    <section>
+        <form class="field is-grouped is-centered create-burger">
+            <div class="control">
+            <label class="label">Create your new burger</label>
+                <textarea class="textarea" id="new-burger" placeholder="What burger do you want to eat?"></textarea>
+            <div class="control sub-btn">
+                <button type="submit" class="button is-link">Submit</button>
+            </div>
+            </div>
+        </form>
+    </section>
+
+    {{!-- <h2>Create a new burger</h2>
+    <form class="create-form">
+
+        <div class="form-group">
+            <label for="burger">Burger Name:</label>
+            <input type="text" id="burger" name="name">
+        </div>
+
+        <div class="form-group">
+            <label for="devoured">Have you eaten this burger yet?</label><br>
+            <input type="radio" name="devoured" value="1" checked> Smashed it! Devoured already!<br>
+            <input type="radio" name="devoured" value="0"> Not yet! I'm hungry. Feed me.
+        </div>
+
+        <button class="button" type="submit">Add your new burger creation</button>
+    </form> --}}
+
+</body>
