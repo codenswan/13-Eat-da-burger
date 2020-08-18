@@ -30,15 +30,7 @@ Upon loading the page you are presented with 2 columns and an input text field b
 
 You can enter a new burger into the input field and hit the submit button to create a new burger. This will then be added to the database and then displayed in the uneaten burger column.
 
-Here are some screenshots of the application. 
-
-This is the main menu screen.
-
-![](images/Screen%20Shot%202020-08-13%20at%2010.38.21%20am.png)
-
-This is a sample screen shot of the employees table.
-
-![](images/Screen%20Shot%202020-08-13%20at%2010.39.05%20am.png)
+![](Screen%20Shot%202020-08-18%20at%203.56.02%20pm.png
 
 
 ## Questions:
