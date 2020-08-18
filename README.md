@@ -30,7 +30,7 @@ Upon loading the page you are presented with 2 columns and an input text field b
 
 You can enter a new burger into the input field and hit the submit button to create a new burger. This will then be added to the database and then displayed in the uneaten burger column.
 
-![](Screen%20Shot%202020-08-18%20at%203.56.02%20pm.png
+![](Screen%20Shot%202020-08-18%20at%203.56.02%20pm.png)
 
 
 ## Questions:
