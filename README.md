@@ -2,6 +2,8 @@
 
 This project was developed by [codenswan](https://github.com/codenswan).
 
+------------------------------------------------------------
+
 ### Table of Contents
 * [Description](#Description)
 * [Install Instructions](#Installation)
@@ -12,7 +14,7 @@ This project was developed by [codenswan](https://github.com/codenswan).
 ------------------------------------------------------------
 
 ## Description:
-This application is staff database used to track employees, departments and roles.
+This application is a burger diary that keeps a track of burger creations you want to try and then once you have devoured a burger you can mark it accordingly. It uses a heroku server for the MySQL database, Node, Express, Handlebars and a homemade ORM. The app is organised according to the MVC design pattern. Node and MySQL queries the database and routes data in your app. Handlebars is used to generate the HTML.
 
 ## Installation:
 Don't forget to run the following command in order to install dependencies.
@@ -22,18 +24,14 @@ npm install
     
 ## Dependencies:
 The dependencies used by this app include:
-+ chalk: 4.1.0,
-+ clear: 0.1.0,
-+ figlet: 1.5.0,
-+ inquirer: 7.3.3,
++ express: 4.17.1
++ express-handlebars: 5.1.0
 + mysql2": 2.1.0
 
-## Usage:
-The entry point for the application is through the command:
+## Deployed
+You can access the app through the link [warm-caverns-55038.herokuapp.com/](https://warm-caverns-55038.herokuapp.com/)
 
-```
-npm start
-```
+## Usage:
 
 Here are some screenshots of the application. 
 
